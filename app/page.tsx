@@ -1,5 +1,6 @@
 import Image from "next/image";
 import AgeGate from "./components/AgeGate";
+import SocialMenu from "./components/SocialMenu";
 
 const trackingLinks: Record<string, string> = {
   ig1: "https://onlyfans.com/cristilozii/c2",
@@ -85,7 +86,7 @@ export default async function Page({
           </div>
 
           <div style={{ position: "absolute", bottom: 14, left: 0, right: 0, display: "flex", gap: 10, justifyContent: "center" }}>
-            <SocialBtn href="https://www.instagram.com/cristi_lozii"><IconIG /></SocialBtn>
+            <SocialMenu accounts={IG_ACCOUNTS}><IconIG /></SocialMenu>
             <SocialBtn href={LINK_TIKTOK}><IconTT /></SocialBtn>
             <SocialBtn href={LINK_TG}><IconTG /></SocialBtn>
             <SocialBtn href={LINK_FB}><IconFB /></SocialBtn>
