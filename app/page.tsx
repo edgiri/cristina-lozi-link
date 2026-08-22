@@ -60,8 +60,8 @@ export default async function Page({
   const LINK_MAIN = trackingLinks[ref ?? ""] ?? trackingLinks["default"];
 
   const NAME = "Cristina Lozi";
-  const LINK_TG = "https://t.me/+GjGJj2dorOEzNTE1";
-  const LINK_TIKTOK = "https://www.tiktok.com/";
+  const LINK_TG = "https://t.me/cristielcaat";
+  const LINK_TIKTOK = "https://www.tiktok.com/@cristicat00";
   const LINK_FB = "https://www.facebook.com/ErinMiaJames/";
 
   const IG_ACCOUNTS = [
