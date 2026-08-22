@@ -62,7 +62,7 @@ export default async function Page({
   const NAME = "Cristina Lozi";
   const LINK_TG = "https://t.me/cristielcaat";
   const LINK_TIKTOK = "https://www.tiktok.com/@cristicat00";
-  const LINK_FB = "https://www.facebook.com/ErinMiaJames/";
+  const LINK_FB = "https://www.facebook.com/";
 
   const IG_ACCOUNTS = [
     { label: "cristi_lozii", url: "https://www.instagram.com/cristi_lozii" },
