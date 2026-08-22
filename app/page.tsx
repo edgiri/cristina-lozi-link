@@ -3,14 +3,13 @@ import AgeGate from "./components/AgeGate";
 import SocialMenu from "./components/SocialMenu";
 
 const trackingLinks: Record<string, string> = {
-  ig1: "https://onlyfans.com/boonyex/c3",
-  ig2: "https://onlyfans.com/boonyex/c4",
-  ig3: "https://onlyfans.com/boonyex/c5",
-  ig4: "https://onlyfans.com/boonyex/c6",
-  tt1: "https://onlyfans.com/boonyex/c7",
-  fb1: "https://onlyfans.com/boonyex/c8",
-  tw1: "https://onlyfans.com/boonyex/c9",
-  default: "https://onlyfans.com/boonyex",
+  ig1: "https://onlyfans.com/cristilozii/c2",
+  ig2: "https://onlyfans.com/cristilozii/c3",
+  ig3: "https://onlyfans.com/cristilozii/c4",
+  ig4: "https://onlyfans.com/cristilozii/c5",
+  tw1: "https://onlyfans.com/cristilozii/c6",
+  tt1: "https://onlyfans.com/cristilozii/c7",
+  default: "https://onlyfans.com/cristilozii",
 };
 
 const BadgeVerified = () => (
@@ -60,7 +59,7 @@ export default async function Page({
   const { ref } = await searchParams;
   const LINK_MAIN = trackingLinks[ref ?? ""] ?? trackingLinks["default"];
 
-  const NAME = "Andrea Boonyex";
+  const NAME = "Cristina Lozi";
   const LINK_TG = "https://t.me/+GjGJj2dorOEzNTE1";
   const LINK_TIKTOK = "https://www.tiktok.com/";
   const LINK_FB = "https://www.facebook.com/ErinMiaJames/";
@@ -80,7 +79,7 @@ export default async function Page({
 
         {/* HERO */}
         <div style={{ position: "relative", width: "100%", height: "clamp(320px, 70vw, 440px)" }}>
-          <Image src="/avatar.jpg" alt="Andrea Boonyex" fill priority style={{ objectFit: "cover", objectPosition: "top" }} />
+          <Image src="/avatar.jpg" alt="Cristina Lozi" fill priority style={{ objectFit: "cover", objectPosition: "top" }} />
           <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: "65%", background: "linear-gradient(to bottom, transparent, #000)" }} />
 
           <div style={{ position: "absolute", bottom: 58, left: 0, right: 0, textAlign: "center", display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}>

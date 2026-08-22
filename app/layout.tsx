@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Andrea Boonyex",
+  title: "Cristina Lozi",
   description: "Content creator and model.",
   referrer: "no-referrer",
 };

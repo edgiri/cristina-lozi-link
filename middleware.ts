@@ -51,12 +51,12 @@ const NEUTRAL_HTML = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Andrea Boonyex</title>
+  <title>Cristina Lozi</title>
   <meta name="description" content="Content creator and model."/>
 </head>
 <body style="margin:0;background:#000;color:#fff;font-family:sans-serif;display:grid;place-items:center;min-height:100vh;">
   <div style="text-align:center;">
-    <h1>Andrea Boonyex</h1>
+    <h1>Cristina Lozi</h1>
     <p>Content creator · Spain</p>
   </div>
 </body>
