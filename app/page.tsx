@@ -86,7 +86,7 @@ export default async function Page({
           </div>
 
           <div style={{ position: "absolute", bottom: 14, left: 0, right: 0, display: "flex", gap: 10, justifyContent: "center" }}>
-            <SocialMenu accounts={IG_ACCOUNTS}><IconIG /></SocialMenu>
+            <SocialBtn href={IG_ACCOUNTS[0].url}><IconIG /></SocialBtn>
             <SocialBtn href={LINK_TIKTOK}><IconTT /></SocialBtn>
             <SocialBtn href={LINK_TG}><IconTG /></SocialBtn>
             <SocialBtn href={LINK_FB}><IconFB /></SocialBtn>
@@ -96,6 +96,10 @@ export default async function Page({
         {/* BODY */}
         <div style={{ background: "#000", display: "grid", placeItems: "center", gap: 14, padding: "16px 20px 28px" }}>
           <div style={{ opacity: 0.45, fontSize: 12, letterSpacing: 2, textTransform: "uppercase" }}>My socials</div>
+
+          <SocialMenu accounts={IG_ACCOUNTS}>
+            <div style={{ padding: "10px 20px", borderRadius: 999, border: "1px solid rgba(255,255,255,0.2)", fontSize: 13, fontWeight: 600, color: "white" }}>Ver mis Instagrams</div>
+          </SocialMenu>
 
           <div style={{ position: 'relative', width: '100%' }}>
           <div style={{ position: 'absolute', top: 8, left: 8, zIndex: 10 }}>
