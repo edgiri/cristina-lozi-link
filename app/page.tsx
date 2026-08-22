@@ -96,10 +96,7 @@ export default async function Page({
         <div style={{ background: "#000", display: "grid", placeItems: "center", gap: 14, padding: "16px 20px 28px" }}>
           <div style={{ opacity: 0.45, fontSize: 12, letterSpacing: 2, textTransform: "uppercase" }}>My socials</div>
 
-          <div style={{ display: "flex", gap: 10 }}>
-            <SocialBtn href="https://www.instagram.com/cristi_lozii"><IconIG /></SocialBtn>
-            <SocialBtn href="https://www.instagram.com/cristilozi"><IconIG /></SocialBtn>
-          </div>
+          
 
           <div style={{ position: 'relative', width: '100%' }}>
           <div style={{ position: 'absolute', top: 8, left: 8, zIndex: 10 }}>
