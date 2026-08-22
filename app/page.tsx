@@ -65,10 +65,8 @@ export default async function Page({
   const LINK_FB = "https://www.facebook.com/ErinMiaJames/";
 
   const IG_ACCOUNTS = [
-    { label: "erinmiajamesagain", url: "https://www.instagram.com/erinmiajamesagain/" },
-    { label: "erinmiaajames", url: "https://www.instagram.com/erinmiaajames/" },
-    { label: "erinmiajames", url: "https://www.instagram.com/erinmiajames/" },
-    { label: "erinmiajamesagainagain", url: "https://www.instagram.com/erinmiajamesagainagain/" },
+    { label: "cristi_lozii", url: "https://www.instagram.com/cristi_lozii" },
+    { label: "cristilozi", url: "https://www.instagram.com/cristilozi" },
   ];
 
   return (
